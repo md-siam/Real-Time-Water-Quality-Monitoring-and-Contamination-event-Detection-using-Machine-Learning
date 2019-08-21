@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>js test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <!-- ML Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.6"></script>
+
+    <script>
+        function insert(str, index, value) {
+            return str.substr(0, index) + value + str.substr(index);
+        }
+         function dateFormater(data) {
+            if (data[data.indexOf("/") + 2] == "/") {
+                data = insert(data, data.indexOf("/") + 1, "0");
+            }
+            var day = data.substr(0, data.indexOf("/"));
+            var month = data.substr(data.indexOf("/") + 1, 2);
+            var year = (data.substr(data.lastIndexOf("/") + 1));
+            //return year + month + day;
+            return day;
+        }
+
+        var dateObj = new Date();
+        var month = dateObj.getUTCMonth() + 1; //months from 1-12
+        var day = dateObj.getUTCDate();
+        var year = dateObj.getUTCFullYear();
+        var today = day + "/" + month + "/" + year;
+
+        var dateData = sessionStorage.getItem('dateDataArray').split(","); //convert string to num array
+        for (var z = 0; z < dateData.length; z++) {
+            dateData[z] = parseInt(dateFormater(dateData[z]));
+        }
+        var phData = sessionStorage.getItem('phDataArray').split(","); //convert string to num array
+        var timeData = sessionStorage.getItem('timeDataArray').split(","); //convert string to num array
+        var turbidityData = sessionStorage.getItem('turbidityDataArray').split(","); //convert string to num array
+        var tempData = sessionStorage.getItem('tempDataArray').split(","); //convert string to num array
+        var ecData = sessionStorage.getItem('ecDataArray').split(","); //convert string to num array
+
+        const xs = tf.tensor1d(dateData)
+        const ys = tf.tensor1d(phData)
+
+        const xmin = xs.min();
+        const xmax = xs.max();
+        const xrange = xmax.sub(xmin);
+
+        function norm(x) {
+            return x.sub(xmin).div(xrange);
+        }
+
+        xsNorm = norm(xs)
+        ysNorm = norm(ys)
+
+        // Building our model
+
+        const a = tf.variable(tf.scalar(Math.random()))
+        const b = tf.variable(tf.scalar(Math.random()))
+
+       
+
+        function predict(x) {
+            return tf.tidy(() => {
+                return a.mul(x).add(b)
+            });
+        }
+
+        // Training
+
+        function loss(predictions, labels) {
+            return predictions.sub(labels).square().mean();
+        }
+
+
+        const learningRate = 0.5;
+        const optimizer = tf.train.sgd(learningRate);
+
+        const numIterations = 10000;
+        const errors = []
+
+        for (let iter = 0; iter < numIterations; iter++) {
+            optimizer.minimize(() => {
+                const predsYs = predict(xsNorm);
+                const e = loss(predsYs, ysNorm);
+                errors.push(e.dataSync())
+                return e
+            });
+        }
+
+        // Making predictions
+
+        xTest = tf.tensor1d([today])
+        predict(xTest).print()
+
+
+        function stdev(list) {
+            var sum = 0;
+            var mean = 0;
+            var num = 0;
+            var numi = 0;
+            var deno = 0;
+
+            for (var i in list) {
+                sum += list[i];
+            }
+            mean = sum / list.length;
+
+            for (var i in list) {
+                numi = Math.pow((list[i] - mean), 2);
+                num += numi;
+            }
+
+            return Math.sqrt(num / list.length);
+        }
+
+        var arr = [6, 6, 9, 5.7, 8];
+        var std = stdev(arr);
+        //document.write(std);
+        // console.log(std);
+    </script>
+</body>
+
+</html>

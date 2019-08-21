@@ -1,0 +1,19 @@
+CREATE DATABASE waterContamination;
+
+CREATE TABLE user_table(
+    user_id INT AUTO_INCREMENT,
+    user_name VARCHAR(50),
+    user_password VARCHAR(50),
+    PRIMARY KEY (user_id)
+);
+
+INSERT INTO user_table (user_name, user_password)
+VALUES ('user001', SHA1('1500'));
+
+CREATE TABLE login_information(
+    login_id int AUTO_INCREMENT NOT NULL,
+    user_id int NOT NULL,
+    login_date DATE not null,
+    PRIMARY KEY (login_id),
+    FOREIGN KEY (user_id) REFERENCES user_table (user_id)
+);
