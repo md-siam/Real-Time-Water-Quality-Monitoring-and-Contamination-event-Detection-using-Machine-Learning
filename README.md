@@ -21,6 +21,8 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 <p align="center"><img src="project_imgs/figure_3.png">
   <br><i>Figure: Flowchart showing the Software architecture of the project</i>
 </p>
+
+
 ## Android Application:
 ![Screenshot](project_imgs/android_app_(UI).jpg)
 
