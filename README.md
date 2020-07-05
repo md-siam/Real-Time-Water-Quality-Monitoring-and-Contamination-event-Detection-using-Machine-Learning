@@ -5,5 +5,15 @@ There were three members(including me) in my group. Here we implemented four sen
 https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
-## Screenshots:
+## Hardware Archetecture:
+![Screenshot](project_imgs/figure_1.png)
+![Screenshot](project_imgs/figure_2.png)
+![Screenshot](project_imgs/figure_3.png)
+![Screenshot](project_imgs/figure_4.png)
+
+## Android Application
 ![Screenshot](project_imgs/android_app_(UI).jpg)
+
+## Website
+![Screenshot](project_imgs/web.png)
+![Screenshot](project_imgs/web2.png)
