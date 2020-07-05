@@ -29,7 +29,8 @@ There were three members(including me) in my group. Here we implemented four sen
 <p align="center"><img src="project_imgs/web.png">
 <br><i>Figure 1: User dashboard with water quality status and sensor details</i>
 </p>
-<p align="center"><img src="pproject_imgs/web2.png">
+
+<p align="center"><img src="project_imgs/web2.png">
 <br><i>Figure 2: Data chart showing a log of sensing data</i>
 </p>
 
