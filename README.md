@@ -41,7 +41,7 @@ Here, we propose an Internet of Things (IoT) enabled remote sensing kit for mult
 
 ## Website Demo: 
 <p align="center">
-  <img src="project_imgs/web_demo.png">
+  <img src="project_imgs/site_demo.png">
   <br><a href="http://purerawater.epizy.com/" target="popup" > >Click Here< </a>
 </p>
   
