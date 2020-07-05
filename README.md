@@ -1,5 +1,5 @@
 # Real-Time-Water-Quality-Monitoring-and-Contamination-event-Detection-using-Machine-Learning
-<p style="text-indent: 50px; text-align: justify">
+<p>
    Here, we propose an Internet of Things (IoT) enabled remote sensing kit for multipara-meter based water quality monitoring and contamination event detection. The proposed kit is able to collect real-time data from household reservoirs, analyze and display them on an easy to use platform for monitoring purpose. It can measure Temperature (T), pH, Electrical Conductivity (EC), and Turbidity (Tb), as vital indicators of water quality. It can also preprocess acquired data by the onboard processor (NodeMCU) and transfer to the cloud (Firebase) for determining the water quality. Users can monitor water quality regularly as a graph and other means by logging in their web account.
 </p>
 
