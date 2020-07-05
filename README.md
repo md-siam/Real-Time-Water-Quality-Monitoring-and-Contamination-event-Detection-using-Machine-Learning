@@ -5,4 +5,5 @@ There were three members(including me) in my group. Here we implemented four sen
 https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
-![Screenshot](project_imgs/android_app_login.png).  ![Screenshot](project_imgs/android_app_UI.png)
+## Screenshots:
+![Screenshot](project_imgs/android_app_login.png)
