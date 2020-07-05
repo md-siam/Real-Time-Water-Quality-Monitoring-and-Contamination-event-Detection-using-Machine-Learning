@@ -6,4 +6,4 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
 ## Screenshots:
-![Screenshot](project_imgs/android_app_login.png)
+![Screenshot](project_imgs/android_app_(UI).jpg)
