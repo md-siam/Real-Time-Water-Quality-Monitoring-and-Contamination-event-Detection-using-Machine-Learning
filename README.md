@@ -38,5 +38,5 @@ Here, we propose an Internet of Things (IoT) enabled remote sensing kit for mult
 ## Video Demo: 
 <p align="center">
   <img src="project_imgs/video.png" width="800px">
-  <br><a href="https://www.youtube.com/watch?v=Lfle9G2NlAs&list=PLWdzmf_yjOGuscKK0aBLP5xYphjYk2Bci&index=9&t=0s" target="popup" >Click Here</a>
+  <br><a href="https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view?fbclid=IwAR1hYs1DQvEUIFxiu2ToXCMVhZCbtnY5LERlFkMvn6AwzN_mG4pmOSczUYE" target="popup" >Click Here</a>
 </p>
