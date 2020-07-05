@@ -6,16 +6,15 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
 ## Hardware Archetecture:
-<p align="center">
-  <img src="project_imgs/figure_1.png">
-  <img src="project_imgs/figure_2.png">
-  <img src="project_imgs/figure_3.png">
-  <img src="project_imgs/figure_4.png">
-</p>
+<p align="center"><img src="project_imgs/figure_1.png"></p>
+<p style="text-align:center;">Centered paragraph.</p>
+<p align="center"><img src="project_imgs/figure_2.png"></p>
+<p align="center"><img src="project_imgs/figure_3.png"></p>
+<p align="center"><img src="project_imgs/figure_4.png"></p>
 
-## Android Application
+## Android Application:
 ![Screenshot](project_imgs/android_app_(UI).jpg)
 
-## Website
+## Website:
 ![Screenshot](project_imgs/web.png)
 ![Screenshot](project_imgs/web2.png)
