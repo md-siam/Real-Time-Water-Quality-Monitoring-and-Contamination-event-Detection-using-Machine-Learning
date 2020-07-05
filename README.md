@@ -7,10 +7,17 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 ## Hardware Archetecture:
 <p align="center"><img src="project_imgs/figure_1.png">
-<br>Figure 1: Simplified architecture of the overall system</p>
-<p align="center"><img src="project_imgs/figure_2.png"></p>
-<p align="center"><img src="project_imgs/figure_3.png"></p>
-<p align="center"><img src="project_imgs/figure_4.png"></p>
+<br><i>Figure 1: Simplified architecture of the overall system</i>
+</p>
+<p align="center"><img src="project_imgs/figure_2.png">
+  <br><i>Figure 2: The flow of data from sensors to server</i>
+</p>
+<p align="center"><img src="project_imgs/figure_3.png">
+  <br><i>Figure 3: Flowchart showing the Software architecture of the project</i>
+</p>
+<p align="center"><img src="project_imgs/figure_4.png">
+  <br><i>Figure 4: Showing inside the final device, the IC board & sensors’ position below the device</i>
+</p>
 
 ## Android Application:
 ![Screenshot](project_imgs/android_app_(UI).jpg)
