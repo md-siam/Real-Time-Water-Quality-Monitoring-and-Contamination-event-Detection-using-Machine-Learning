@@ -6,8 +6,8 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
 ## Hardware Archetecture:
-<p align="center"><img src="project_imgs/figure_1.png"></p>
-<p align="center">Figure 1: Simplified architecture of the overall system</p>
+<p align="center"><img src="project_imgs/figure_1.png">
+<br>Figure 1: Simplified architecture of the overall system</p>
 <p align="center"><img src="project_imgs/figure_2.png"></p>
 <p align="center"><img src="project_imgs/figure_3.png"></p>
 <p align="center"><img src="project_imgs/figure_4.png"></p>
