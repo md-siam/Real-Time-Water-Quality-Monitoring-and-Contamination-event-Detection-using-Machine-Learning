@@ -6,7 +6,7 @@ https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view
 
 
 ## Hardware Archetecture:
-<img src="project_imgs/figure_1.png" style="vertical-align:middle">
+<img src="project_imgs/figure_1.png" alt="Figure_1" style="display: block;margin-left: auto;margin-right: auto;">
 
 ![Screenshot](project_imgs/figure_2.png)
 ![Screenshot](project_imgs/figure_3.png)
