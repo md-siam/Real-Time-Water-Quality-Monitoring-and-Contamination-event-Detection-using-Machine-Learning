@@ -1,6 +1,5 @@
 # Real-Time-Water-Quality-Monitoring-and-Contamination-event-Detection-using-Machine-Learning
-It was my final year project. 
-There were three members(including me) in my group. Here we implemented four sensors to detect water quality of a storage tank. The user can see the real-time reading of the sensors using the Website &amp; through the Android app.  
+Here, we propose Remote Sensing Kit (RSK), an Internet of Things (IoT) enabled device for multipara-meter based water quality monitoring and contamination event detection. We further demonstrate its ability collecting real-time data from household reservoirs, analyzing and displaying them on a plug and play platform for monitoring. RSK is able to measure Temperature (T), pH, Electrical Conductivity (EC), and Turbidity (Tb), which are vital parameters and indicators of water quality. It can also preprocess acquired data by the processor (NodeMCU) and transfer to the cloud (Firebase) for determining the water quality. Users can view the status of water quality over the course of time as a graph and other means by logging in their web account. RSK and its sensors have been tested thoroughly to ensure its accuracy and usefulness. 
 
 ## Hardware Archetecture:
 <p align="center"><img src="project_imgs/figure_1.png">
