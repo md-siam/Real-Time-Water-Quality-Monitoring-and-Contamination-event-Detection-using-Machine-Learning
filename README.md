@@ -22,7 +22,7 @@ There were three members(including me) in my group. Here we implemented four sen
 
 ## Android Application:
 <p align="center"><img src="project_imgs/android_app_(UI).jpg">
-<br><i>Figure : The login user interface and what user will see after successful login</i>
+<br><i>Figure : Showing the login user interface, and user's observation after successful login</i>
 </p>
 
 ## Website:
