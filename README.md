@@ -23,19 +23,19 @@ Here, we propose an Internet of Things (IoT) enabled remote sensing kit for mult
 
 
 ## Android Application:
-<p align="center" width="800px">
-  <img src="project_imgs/android_app_(UI).jpg">
+<p align="center">
+  <img src="project_imgs/android_app_(UI).jpg" width="800px">
   <br><i>Figure : Showing the login user interface, and user's observation after successful login</i>
 </p>
 
 ## Website:
-<p align="center" >
-  <img src="project_imgs/web.png">
+<p align="center">
+  <img src="project_imgs/web.png" width="800px">
   <br><i>Figure 1: User dashboard with water quality status and sensor details</i>
 </p>
 
-<p align="center" width="800px">
-  <img src="project_imgs/web2.png">
+<p align="center">
+  <img src="project_imgs/web2.png" width="800px">
   <br><i>Figure 2: Data chart showing a log of sensing data</i>
 </p>
 
