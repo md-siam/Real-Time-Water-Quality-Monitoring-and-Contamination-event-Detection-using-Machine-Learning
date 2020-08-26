@@ -51,3 +51,7 @@ Here, we propose an Internet of Things (IoT) enabled remote sensing kit for mult
   <br><a href="https://drive.google.com/file/d/1HO313AfypfGtwzoxLTGwcj2Tgw4z8QUb/view?fbclid=IwAR1hYs1DQvEUIFxiu2ToXCMVhZCbtnY5LERlFkMvn6AwzN_mG4pmOSczUYE" target="popup" > >Click Here< </a>
 </p>
 
+## Publication:
+<p align="justify" >
+Humanitarian Technology Conference (R10-HTC), IEEE Region 10, 2019 - <br><a href="https://github.com/md-siam/Real-Time-Water-Quality-Monitoring-and-Contamination-event-Detection-using-Machine-Learning/blob/master/IEEE%20Region%2010/R10HTC2019-09-PAPER-B-SES1-ROOMC-2.pdf" target="popup" > Read </a>
+</p>
